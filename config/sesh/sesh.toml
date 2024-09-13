@@ -1,0 +1,43 @@
+[default_session]
+startup_command = "nvim"
+
+# dotfiles configs
+[[session]]
+name = "dotfiles"
+path = "~/dotfiles/"
+startup_command = "nvim"
+
+[[session]]
+name = "zsh config"
+path = "~/dotfiles/"
+startup_command = "nvim .zshrc"
+
+[[session]]
+name = "tmux config"
+path = "~/dotfiles/"
+startup_command = "nvim .tmux.conf"
+
+[[session]]
+name = "nvim config"
+path = "~/.config/nvim"
+startup_command = "nvim"
+
+[[session]]
+name = "sesh config"
+path = "~/.config/sesh/"
+startup_command = "nvim sesh.toml"
+
+# python projects
+[[session]]
+name = "T-Rex-Azure-Personalised-Rewards"
+path = "~/code/Azure/T-Rex-Azure-Personalised-Rewards"
+startup_command = "nvim"
+
+[[session]]
+name = "T-Rex-Azure-Core"
+path = "~/code/Azure/T-Rex-Azure-Core"
+startup_command = "nvim"
+
+
+
+
