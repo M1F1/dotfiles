@@ -3,8 +3,6 @@
 conda-env-list-and-activate() {
   # Store the list of environments in an array
   envs=($(conda env list | awk '{print $1}' | tail -n +4))
-  echo "$envs"
-  echo "${envs[1]}"
 
   # Print the numbered list of environments with zero-based index
   echo "Available Conda environments:"

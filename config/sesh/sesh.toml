@@ -10,21 +10,21 @@ startup_command = "nvim"
 [[session]]
 name = "zsh config"
 path = "~/dotfiles/"
-startup_command = "nvim .zshrc"
+startup_command = "nvim zshrc"
 
 [[session]]
 name = "tmux config"
 path = "~/dotfiles/"
-startup_command = "nvim .tmux.conf"
+startup_command = "nvim tmux.conf"
 
 [[session]]
 name = "nvim config"
-path = "~/.config/nvim"
+path = "~/dotfiles/config/nvim"
 startup_command = "nvim"
 
 [[session]]
 name = "sesh config"
-path = "~/.config/sesh/"
+path = "~/dotfiles/config/sesh/"
 startup_command = "nvim sesh.toml"
 
 # python projects
