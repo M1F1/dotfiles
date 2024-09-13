@@ -1,11 +1,16 @@
 [default_session]
-startup_command = "nvim"
+startup_command = "nvim -c ':Telescope find_files'"
 
 # dotfiles configs
 [[session]]
 name = "dotfiles"
 path = "~/dotfiles/"
-startup_command = "nvim"
+startup_command = "nvim -c ':Telescope find_files'"
+
+[[session]]
+name = "scripts"
+path = "~/dotfiles/scripts/"
+startup_command = "nvim -c ':Telescope find_files'"
 
 [[session]]
 name = "zsh config"
@@ -20,7 +25,7 @@ startup_command = "nvim tmux.conf"
 [[session]]
 name = "nvim config"
 path = "~/dotfiles/config/nvim"
-startup_command = "nvim"
+startup_command = "nvim -c ':Telescope find_files'"
 
 [[session]]
 name = "sesh config"
@@ -31,12 +36,12 @@ startup_command = "nvim sesh.toml"
 [[session]]
 name = "T-Rex-Azure-Personalised-Rewards"
 path = "~/code/Azure/T-Rex-Azure-Personalised-Rewards"
-startup_command = "nvim"
+startup_command = "nvim -c ':Telescope find_files'"
 
 [[session]]
 name = "T-Rex-Azure-Core"
 path = "~/code/Azure/T-Rex-Azure-Core"
-startup_command = "nvim"
+startup_command = "nvim -c ':Telescope find_files'"
 
 
 
