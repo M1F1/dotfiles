@@ -14,6 +14,8 @@ conda-env-list-and-activate() {
 
   # Prompt the user to select an environment by number
   echo "Enter the number of the environment you want to activate:"
+  echo "Or enter any other key to cancel."
+
   read env_number
 
   # Validate the input and handle the selection

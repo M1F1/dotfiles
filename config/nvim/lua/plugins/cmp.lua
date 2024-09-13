@@ -26,6 +26,7 @@ return {
 
       local sources = opts.sources or {}
       vim.list_extend(sources, {
+        { name = "copilot" },
         { name = "nvim_lsp" },
         { name = "path" },
         { name = "luasnip" },
