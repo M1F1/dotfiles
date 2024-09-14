@@ -22,7 +22,8 @@ export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 # prepare scripts
-source ~/dotfiles/scripts/*.sh
+source ~/dotfiles/scripts/python_project_workflow_utils.sh
 
 # aliases for scripts
 alias ca="conda-env-list-and-activate"
+alias ex="export-python-path-core-v2"

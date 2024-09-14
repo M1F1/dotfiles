@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export-python-path-core-v2() {
+  export PYTHONPATH=/Users/pl8000255/code/AZURE/T-Rex-Azure-Core/src:src
+}
+
 conda-env-list-and-activate() {
   # Store the list of environments in an array
   envs=($(conda env list | awk '{print $1}' | tail -n +4))
